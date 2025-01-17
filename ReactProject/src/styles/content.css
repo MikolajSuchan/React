@@ -1,0 +1,110 @@
+/* Ogólny styl dla main */
+main {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f4f4; /* Jasne tło */
+    border-radius: 8px; /* Zaokrąglone rogi */
+  }
+  
+  /* Stylowanie nagłówków */
+  h3.section-title {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #4CAF50; /* Zielona linia pod tytułem */
+    padding-bottom: 10px;
+  }
+  
+  /* Stylowanie sekcji z kodem */
+  .code-snippets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .code-block {
+    background-color: #2d2d2d;
+    color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(50% - 25px);
+    box-sizing: border-box;
+    overflow-x: auto;
+    word-wrap: break-word;
+  }
+  
+  .code-block p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #4CAF50; /* Zielony kolor dla nagłówków w blokach kodu */
+  }
+  
+  code {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 1rem;
+    display: block;
+    background-color: #222; /* Tło dla kodu */
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+/* Stylowanie listy */
+ul {
+    padding-left: 25px; /* Większy odstęp od lewej krawędzi */
+    margin: 20px 0;
+    font-size: 1.2rem;
+    line-height: 1.8; /* Zwiększenie odstępów między wierszami */
+    color: #333; /* Zmiana na ciemniejszy kolor tekstu */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Dodanie odstępu między punktami listy */
+    color: #4CAF50; /* Zielony kolor tekstu */
+    font-size: 1.1rem; /* Utrzymanie jednolitego rozmiaru czcionki */
+    line-height: 1.8;
+  }
+  
+  li::before {
+    content: '• '; /* Dodanie punktu listy przed tekstem */
+    color: #4CAF50; /* Kolor punktu listy */
+    font-weight: bold;
+    font-size: 1.5rem; /* Powiększenie punktu listy */
+    margin-right: 10px; /* Odstęp między punktem a tekstem */
+  }
+  
+  /* Stylowanie przycisku */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #388E3C;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:focus {
+    outline: none;
+    border: 2px solid #388E3C; /* Zielona obwódka przy fokusie */
+  }
+  

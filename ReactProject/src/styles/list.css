@@ -1,0 +1,93 @@
+/* Stylizacja kontenera listy */
+.list-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Stylizacja pól tekstowych */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Stylizacja przycisku sortowania */
+  .sort-button {
+    padding: 10px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .sort-button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Stylizacja listy */
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    padding: 15px;
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  
+  .remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+  
+  .remove-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Animacja drag-and-drop */
+  .list-item {
+    transition: transform 0.2s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid #6200ea;
+  }
+  
